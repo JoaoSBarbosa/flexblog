@@ -1,0 +1,8 @@
+:root{
+   --bg-color1:#031634;
+   --color1: #fff;
+}
+
+.cor1{
+   color: var(--color1);
+}
