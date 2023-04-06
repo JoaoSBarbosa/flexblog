@@ -1,3 +1,31 @@
-.introducao{
-   
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  padding: var(--padding2) var(--padding1);
+}
+
+.sobre {
+  border-top: 2px solid var(--bg2);
+  border-bottom: 2px solid var(--bg2);
+  padding: var(--padding2) 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre--info {
+  flex: 2 1 300px;
+  margin: 0 var(--padding1);
+}
+.sobre--info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.sobre--info p {
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: var(--cor3);
+}
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 var(--padding1);
 }

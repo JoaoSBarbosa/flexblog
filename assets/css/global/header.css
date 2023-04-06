@@ -34,13 +34,13 @@
 
 .menu-nav ul {
   justify-content: center;
-  gap: 10px;
+  gap: var(--padding1);
 }
 .btnMobile {
   display: none;
 }
 .menu-nav a {
-  font-size: 1.25em;
+  font-size: var(--font-size-small);
   display: block;
   padding: var(--padding1) 20px;
 }
@@ -84,7 +84,9 @@
   .btnMobile {
     display: flex;
     padding: 0.6rem 1rem;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: var(--font-size-small);
+
     border: none;
     background-color: transparent;
     color: var(--cor1);
