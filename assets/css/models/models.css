@@ -1,6 +1,10 @@
-.flex--row{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-wrap: wrap;
+.flex--row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.max-width {
+  max-width: var(--max-width);
+  margin: 0 auto;
 }

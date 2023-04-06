@@ -1,14 +1,15 @@
 :root {
-  --bg-color1: #031634;
-  --color1: #fff;
-  --color2: #222;
+  --cor1: #fff;
+  --cor2: #222;
   --bg1: #1f1f20;
   --bg2: #2b4c7e;
+  --max-width: 960px;
+  --padding1: 0.25rem;
 }
 
 .cor1 {
-  color: var(--color1);
+  color: var(--cor1);
 }
 .cor2 {
-  color: var(--color2);
+  color: var(--cor2);
 }

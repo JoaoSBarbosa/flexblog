@@ -15,20 +15,23 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body class="cor2">
-    <div class="superinfo--bg cor1">
-      <div class="superinfo flex--row">
+    <div class="superinfo--bg">
+      <div class="superinfo flex--row cor1 max-width">
         <p>Seg/Sex-08:00 às 18:00</p>
         <a href="tel:+5511994537464">(11) 9 99453-7464</a>
         <p>Av.ragnarook,200, Itaquaquecetuba - SP</p>
       </div>
     </div>
     <header class="menu--bg">
-      <div class="menu flex--row">
+      <div class="menu flex--row max-width">
         <div class="logo">
           <a href="./">Flex<span>Blog</span> </a>
         </div>
-        <nav>
-          <ul>
+        <nav class="menu-nav">
+          <button class="btnMobile">Menu
+            <span class="line"></span>
+          </button>
+          <ul class="flex--row menu-links">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#produtos">Produtos</a></li>
             <li><a href="#preco">Preço</a></li>
@@ -185,5 +188,6 @@
         >
       </p>
     </footer>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
