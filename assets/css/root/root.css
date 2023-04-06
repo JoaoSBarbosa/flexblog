@@ -1,12 +1,14 @@
-:root{
-   --bg-color1:#031634;
-   --color1: #fff;
-   --color2: #222;
+:root {
+  --bg-color1: #031634;
+  --color1: #fff;
+  --color2: #222;
+  --bg1: #1f1f20;
+  --bg2: #2b4c7e;
 }
 
-.cor1{
-   color: var(--color1);
+.cor1 {
+  color: var(--color1);
 }
-.cor2{
-   color: var(--color2);
+.cor2 {
+  color: var(--color2);
 }
