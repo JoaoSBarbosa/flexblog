@@ -1,0 +1,30 @@
+.produtos {
+  margin: var(--padding2) auto;
+}
+.produtos h1 {
+  font-size: var(--font-size-average);
+  margin: 0 var(--padding1) var(--padding2) var(--padding1);
+}
+.produtos-container {
+  justify-content: start;
+  align-items: flex-end;
+}
+.produtos-item {
+  flex: 1 1 175px;
+  margin: var(--padding1);
+}
+.produtos-item h2 {
+  font-size: var(--font-size-average);
+  color: #a4a4a4;
+  background-color: #f7f7f7;
+  padding: var(--padding2) 20px;
+}
+.purple {
+  border-top: 8px solid #ae81ff;
+}
+.pink {
+  border-top: 8px solid #f9265e;
+}
+.blue {
+  border-top: 8px solid #66d8eb;
+}

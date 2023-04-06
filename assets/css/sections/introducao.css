@@ -1,5 +1,5 @@
 .introducao {
-  font-size: 3em;
+  font-size: var(--font-size-average);
   line-height: 1;
   padding: var(--padding2) var(--padding1);
 }
@@ -16,7 +16,7 @@
   margin: 0 var(--padding1);
 }
 .sobre--info h1 {
-  font-size: 3em;
+  font-size: var(--font-size-average);
   margin-bottom: 0.5em;
 }
 .sobre--info p {
@@ -28,4 +28,19 @@
 .sobre-img {
   flex: 1 1 160px;
   margin: 0 var(--padding1);
+}
+@media (max-width: 500px) {
+  .introducao {
+    font-size: 2.4em;
+  }
+}
+@media (max-width: 310px) {
+  .introducao {
+    font-size: 2em;
+  }
+}
+@media (max-width: 310px) {
+  .introducao {
+    font-size: 1em;
+  }
 }
