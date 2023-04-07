@@ -1,0 +1,34 @@
+.qualidade {
+  margin: var(--padding2) auto;
+  justify-content: initial;
+}
+.qualidade--item {
+  flex: 1 1 300px;
+  margin: var(--padding3) var(--padding1);
+}
+.qualidade--item h2 {
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: var(--padding3);
+}
+.qualidade--item h2::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  margin-right: var(--padding1);
+}
+.qualidade--item:nth-of-type(3n + 1) h2::before {
+  background-color: var(--bg2);
+}
+.qualidade--item:nth-of-type(3n + 2) h2::before {
+  background-color: #f9265e;
+}
+.qualidade--item:nth-of-type(3n + 3) h2::before {
+  background-color: var(--bg1);
+}
+.qualidade--item p {
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+  color: var(--cor3);
+}
