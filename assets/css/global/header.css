@@ -31,7 +31,9 @@
   font-weight: bold;
   margin: 0 var(--padding1);
 }
-
+.logo span{
+  color: var(--cor2);
+}
 .menu-nav ul {
   justify-content: center;
   gap: var(--padding1);

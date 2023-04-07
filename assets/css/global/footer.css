@@ -1,0 +1,142 @@
+.footer {
+  background-color: var(--bg1);
+  color: var(--cor1);
+  padding: 20px 0;
+}
+.footer-itens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo i {
+  font-size: 4rem;
+  display: block;
+}
+.footer .logo a {
+  color: currentColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .logo span {
+  color: var(--bg2);
+}
+
+.footer--links {
+  border-left: 2px solid var(--cor3);
+  border-right: 2px solid var(--cor3);
+  text-align: center;
+}
+.footer-menu-links a {
+  color: currentColor;
+  font-size: var(--font-size-small);
+  display: block;
+  padding: var(--padding1) var(--padding3);
+  text-align: start;
+  margin-left: 1rem;
+}
+.footer-menu-links a:hover {
+  background-color: #393939;
+}
+
+.footer-itens h3 {
+  margin-bottom: 1.5rem;
+  padding: 0 0.6rem;
+  color: var(--cor3);
+  font-size: 2rem;
+}
+.footer--links ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-dev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons {
+  gap: 20px;
+  padding: 0 0.6rem;
+  display: flex;
+}
+.icons img {
+  max-width: 38px;
+}
+.footer-dev i {
+  font-size: 2.5rem;
+  color: var(--cor1);
+}
+.footer-dev i:hover {
+  color: var(--bg2);
+  color: #393939;
+}
+.copy {
+  text-align: center;
+  margin: 1rem 0;
+}
+@media (max-width: 700px) {
+  .footer-itens {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px;
+  }
+  .footer--links {
+    border: none;
+    text-align: initial;
+    border: 2px solid rgb(60, 60, 60);
+  }
+  .footer-menu-links a {
+    padding: 15px 0;
+    text-align: initial;
+  }
+  .footer-dev {
+    border: 2px solid rgb(60, 60, 60);
+    margin: 1rem 0;
+  }
+  .footer .logo {
+    border: 2px solid rgb(60, 60, 60);
+  }
+  .icons {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+  }
+  .icons img {
+    max-width: 58px;
+  }
+  .footer-dev i {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 432px) {
+  .icons img {
+    max-width: 40px;
+  }
+  .footer-dev i {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 280px) {
+  .footer h3 {
+    font-size: 1rem;
+  }
+  .icons {
+    flex-direction: column;
+  }
+  .icons img {
+    max-width: 20px;
+  }
+  .footer-dev i {
+    font-size: 1rem;
+  }
+}
